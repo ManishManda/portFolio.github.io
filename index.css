@@ -1,0 +1,27 @@
+.profile{
+    width:fit-content;
+    margin-top: 50px;
+    margin-left:50px;
+
+}
+body{
+    background-color:#f1f1f1;
+}
+/* .container{
+   
+   width:100%;
+   margin: 0;
+   height: 100%;
+} */
+.name{
+    margin-left:10px;
+    margin-right:10px;
+}
+img{
+    width:70%;
+    height:200px
+}
+.icon{
+    width:20px;
+    height:20px
+}
