@@ -1,27 +1,30 @@
-.profile{
-    width:fit-content;
-    margin-top: 50px;
-    margin-left:50px;
 
-}
 body{
-    background-color:#f1f1f1;
+    background-color:black;
+    font-family: "Poppins";
+    font-size: 24px;
+    color:white
 }
-/* .container{
-   
-   width:100%;
-   margin: 0;
-   height: 100%;
-} */
-.name{
-    margin-left:10px;
-    margin-right:10px;
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+#input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background-color: rgb(251, 245, 245);
+    margin-left: 8px;
+    animation: blink .6s linear infinite alternate
 }
-img{
-    width:70%;
-    height:200px
-}
-.icon{
-    width:20px;
-    height:20px
+.typing-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:30%;
+    left:40%
 }
